@@ -1,0 +1,1401 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheIsleofTheMutantBeasts",
+				"abbreviation": "TIoTMB",
+				"full": "The Isle of The Mutant Beasts",
+				"version": "0.1",
+				"authors": [
+					"Davide Salvadore"
+				]
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Wildwind Adept Apprentice - Cleric",
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "cleric",
+						"prefix": "Human"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 17,
+			"cha": 10,
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"3th-level spellcaster that uses Wisdom as its spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The ixitxachitl has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell disguise self}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}",
+								"{@spell inflict wounds}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell hold person}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Channel Divinity: Invoke Duplicity",
+					"entries": [
+						"you can use your Channel Divinity to create an illusory duplicate of yourself.",
+						"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+						"For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
+					]
+				},
+				{
+					"name": "Blessing of the Trickster",
+					"entries": [
+						"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
+					]
+				},
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"hasFluff": true,
+			"shortName": "WANC",
+			"level": 3,
+			"save": {
+				"wis": "+5",
+				"cha": "+2"
+			},
+			"skill": {
+				"religion": "+2",
+				"insight": "+5",
+				"medicine": "+5",
+				"persuasion": "+2"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://tabletopjoab.com/wp-content/uploads/2022/06/mtg-art-temple-thief-1100x640.jpg?ezimgfmt=rs%3Adevice%2Frscb5-1"
+			},
+			"environment": [
+				"urban"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"N",
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"mace|phb"
+			]
+		},
+		{
+			"name": "Raul Noon Wildwind",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb}",
+						"{@item bracers of defense}"
+					]
+				}
+			],
+			"hp": {
+				"average": 32,
+				"formula": "5d8 + 10"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 11,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Makes two melee attacks with {@item Shortsword} and with {@item Shortsword Ostro}"
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword Ostro",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage ({@damage 1d4 }) fire damage"
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"intimidation": "+2",
+				"athletics": "+6"
+			},
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"shortName": "Raul Wildwind",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://drive.google.com/file/d/1UyhIQaspeudsRd09KEya3yEwoAJC9J-R/view?usp=sharing"
+			},
+			"damageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Wildwind Rogue Adept",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "4d8",
+				"average": 18
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"medicine": "+4",
+				"nature": "+3"
+			},
+			"passive": 12,
+			"languages": [
+				"Common",
+				"Thieves' cant"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Makes two Dagger attacks."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Takes the Dash, Disengage, or Hide action."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW",
+				"THW"
+			],
+			"hasFluff": true,
+			"token": {
+				"name": "Tarak",
+				"source": "DoSI"
+			},
+			"shortName": "WBR",
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Wildwind Adept - Ranger",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d10",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 10,
+			"int": 11,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"medicine": "+4",
+				"nature": "+3"
+			},
+			"passive": 12,
+			"languages": [
+				"Common,Sylvan"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Longbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 150/600 ft., one target. {@h}10 ({@damage 1d8 + 3 + 2}) piercing damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"longbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW"
+			],
+			"hasFluff": true,
+			"token": {
+				"name": "Tarak",
+				"source": "DoSI"
+			},
+			"save": {
+				"wis": "+4",
+				"dex": "+5"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell hunter's mark}",
+								"{@spell zephyr strike|XGE}"
+							],
+							"slots": 3
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Wildwind has advantage on an attack roll against a creature if at least one of Wildwind's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"O"
+			]
+		},
+		{
+			"name": "Wildwind Novice Poacher Adept",
+			"source": "TheIsleofTheMutantBeasts",
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 19,
+				"formula": "3d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d6 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Light Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 80/320 ft., one target. {@h}11 ({@damage 1d8 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"hill",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bandit.mp3"
+			},
+			"attachedItems": [
+				"light crossbow|phb",
+				"scimitar|phb"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW"
+			],
+			"hasFluff": true,
+			"token": {
+				"name": "Bandit",
+				"source": "MM"
+			},
+			"fluff": {
+				"name": "Bandit",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.",
+									"Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation's vessels."
+								]
+							}
+						]
+					}
+				]
+			},
+			"shortName": "WBN",
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Wildwind Adept - Captain",
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item studded leather armor|phb|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d4 + 3}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"coastal",
+				"desert",
+				"forest",
+				"hill",
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bandit-captain.mp3"
+			},
+			"attachedItems": [
+				"dagger|phb",
+				"scimitar|phb"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Bandit Captain",
+				"source": "MM"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://5e.tools/img/bestiary/MM/Bandit Captain.webp"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Wildwind Adept -  Fighter",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "4d8 + 8",
+				"average": 26
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 11,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Has advantage on an attack roll against a creature if at least one of his allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"intimidation": "+2",
+				"athletics": "+4"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://www.belloflostsouls.net/wp-content/uploads/2015/01/Fighter-2B-2BValeros.jpg"
+			},
+			"shortName": "WAF",
+			"attachedItems": [
+				"longsword|phb",
+				"shortsword|phb"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Wildwind Adept Novice - Fighter",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 11,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"intimidation": "+2",
+				"athletics": "+4"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://www.belloflostsouls.net/wp-content/uploads/2015/01/Fighter-2B-2BValeros.jpg"
+			},
+			"shortName": "WANF",
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Wildwind Adept Apprentice - Ranger",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d10",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 11,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"deception": "+5",
+				"insight": "+6",
+				"medicine": "+6",
+				"nature": "+3"
+			},
+			"passive": 12,
+			"languages": [
+				"Common,Sylvan"
+			],
+			"cr": "1/4",
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"hasFluff": true,
+			"token": {
+				"name": "Tarak",
+				"source": "DoSI"
+			},
+			"save": {
+				"wis": "+4",
+				"dex": "+5"
+			},
+			"shortName": "WANR",
+			"damageTagsSpell": [
+				"O"
+			],
+			"action": [
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW"
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Wanr has advantage on an attack roll against a creature if at least one of wanr's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Wildwind Adept Apprentice - Fighter",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"NX",
+				"C",
+				"E"
+			],
+			"size": [
+				"M"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item studded leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 6",
+				"average": 19
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 11,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"save": {
+				"str": "+4",
+				"con": "+4"
+			},
+			"skill": {
+				"intimidation": "+2",
+				"athletics": "+4"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://www.belloflostsouls.net/wp-content/uploads/2015/01/Fighter-2B-2BValeros.jpg"
+			},
+			"shortName": "WAAF",
+			"attachedItems": [
+				"shortsword|phb"
+			],
+			"trait": [
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"Waaf has advantage on an attack roll against a creature if at least one of waaf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Wildwind Adept Novice - Ranger",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d10",
+				"average": 16
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 10,
+			"int": 11,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"deception": "+5",
+				"insight": "+6",
+				"medicine": "+6",
+				"nature": "+3"
+			},
+			"passive": 12,
+			"languages": [
+				"Common,Sylvan"
+			],
+			"cr": "1/8",
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"S"
+			],
+			"hasFluff": true,
+			"token": {
+				"name": "Tarak",
+				"source": "DoSI"
+			},
+			"save": {
+				"wis": "+4",
+				"dex": "+5"
+			},
+			"shortName": "WANR",
+			"damageTagsSpell": [
+				"O"
+			],
+			"action": [
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit +4} to hit, range 80/320 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW"
+			],
+			"traitTags": [
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			]
+		},
+		{
+			"name": "Wildwind Adept Novice - Cleric",
+			"source": "TheIsleofTheMutantBeasts",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "cleric",
+						"prefix": "Human"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8 + 4",
+				"average": 13
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 17,
+			"cha": 10,
+			"passive": 13,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"2th-level spellcaster that uses Wisdom as its spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The ixitxachitl has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell charm person}",
+								"{@spell disguise self}",
+								"{@spell guiding bolt}",
+								"{@spell healing word}"
+							],
+							"slots": 3
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Channel Divinity: Invoke Duplicity",
+					"entries": [
+						"you can use your Channel Divinity to create an illusory duplicate of yourself.",
+						"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+						"For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
+					]
+				},
+				{
+					"name": "Blessing of the Trickster",
+					"entries": [
+						"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
+					]
+				},
+				{
+					"name": "Mace",
+					"entries": [
+						"{@atk mw} {@hit +3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"hasFluff": true,
+			"shortName": "WANC",
+			"level": 2,
+			"save": {
+				"wis": "+5",
+				"cha": "+2"
+			},
+			"skill": {
+				"religion": "+2",
+				"insight": "+5",
+				"medicine": "+5",
+				"persuasion": "+2"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://tabletopjoab.com/wp-content/uploads/2022/06/mtg-art-temple-thief-1100x640.jpg?ezimgfmt=rs%3Adevice%2Frscb5-1"
+			},
+			"environment": [
+				"urban"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"mace|phb"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
+		}
+	],
+	"item":[
+		{
+			"name": "Shortsword Ostro",
+			"source": "TheIsleofTheMutantBeasts",
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"entries": [
+				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon."
+			],
+			"bonusWeapon": "+1"
+		}
+	]
+}
