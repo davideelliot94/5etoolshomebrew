@@ -217,7 +217,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Makes two melee attacks with {@item Shortsword} and with {@item Shortsword Ostro}"
+						"Makes two melee attacks with {@item Shortsword} and with {@item Ostro}"
 					]
 				},
 				{
@@ -227,9 +227,9 @@
 					]
 				},
 				{
-					"name": "Shortsword Ostro",
+					"name": "Ostro",
 					"entries": [
-						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage ({@damage 1d4 }) fire damage"
+						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 3}) slashing damage ({@damage 1d4 }) fire damage"
 					]
 				}
 			],
@@ -261,7 +261,7 @@
 			"shortName": "Raul Wildwind",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://drive.google.com/file/d/1UyhIQaspeudsRd09KEya3yEwoAJC9J-R/view?usp=sharing"
+				"url": "https://github.com/davideelliot94/5etoolshomebrew/blob/main/img/tokenized_Raul%20Wildwind_token.png"
 			},
 			"damageTags": [
 				"S"
