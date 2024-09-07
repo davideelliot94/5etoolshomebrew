@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "TheIsleofTheMutantBeasts",
-				"abbreviation": "TIoTMB",
-				"full": "The Isle of The Mutant Beasts",
+				"json": "IsleofTheMutantBeastsCreaturesAndNpcs",
+				"abbreviation": "IoMB-CN",
+				"full": "Isle of The Mutant Beasts - Creatures and Npcs",
 				"version": "0.1",
 				"authors": [
 					"Davide Salvadore"
@@ -15,7 +15,7 @@
 	"monster": [
 		{
 			"name": "Wildwind Adept Apprentice - Cleric",
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -164,7 +164,7 @@
 			"name": "Raul Noon Wildwind",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -271,7 +271,7 @@
 			"name": "Wildwind Rogue Adept",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -367,7 +367,7 @@
 			"name": "Wildwind Adept - Ranger",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -494,7 +494,7 @@
 		},
 		{
 			"name": "Wildwind Novice Poacher Adept",
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"basicRules": true,
 			"size": [
 				"M"
@@ -603,7 +603,7 @@
 		},
 		{
 			"name": "Wildwind Adept - Captain",
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -738,7 +738,7 @@
 			"name": "Wildwind Adept -  Fighter",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -842,7 +842,7 @@
 			"name": "Wildwind Adept Novice - Fighter",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -929,7 +929,7 @@
 			"name": "Wildwind Adept Apprentice - Ranger",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -1040,7 +1040,7 @@
 			"name": "Wildwind Adept Apprentice - Fighter",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -1136,7 +1136,7 @@
 			"name": "Wildwind Adept Novice - Ranger",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -1237,7 +1237,7 @@
 		},
 		{
 			"name": "Wildwind Adept Novice - Cleric",
-			"source": "TheIsleofTheMutantBeasts",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
 			],
@@ -1373,29 +1373,6 @@
 				"dexterity",
 				"wisdom"
 			]
-		}
-	],
-	"item":[
-		{
-			"name": "Ostro",
-			"source": "TheIsleofTheMutantBeasts",
-			"baseItem": "shortsword|PHB",
-			"type": "M",
-			"rarity": "rare",
-			"reqAttune": true,
-			"weight": 2,
-			"value": 500,
-			"weaponCategory": "martial",
-			"property": [
-				"F",
-				"L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"entries": [
-				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon."
-			],
-			"bonusWeapon": "+1"
 		}
 	]
 }
