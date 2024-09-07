@@ -261,10 +261,11 @@
 			"shortName": "Raul Wildwind",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://github.com/davideelliot94/5etoolshomebrew/blob/main/img/tokenized_Raul%20Wildwind_token.png"
+				"url": "https://raw.githubusercontent.com/davideelliot94/5etoolshomebrew/main/img/tokenized_Raul%20Wildwind_token.png?token=GHSAT0AAAAAACXFIYZ7TBTT2HQ473KL22BCZW4Y76Q"
 			},
 			"damageTags": [
-				"S"
+				"S",
+				"F"
 			]
 		},
 		{
