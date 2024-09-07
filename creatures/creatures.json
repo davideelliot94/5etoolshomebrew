@@ -1374,28 +1374,5 @@
 				"wisdom"
 			]
 		}
-	],
-	"item":[
-		{
-			"name": "Shortsword Ostro",
-			"source": "TheIsleofTheMutantBeasts",
-			"baseItem": "shortsword|PHB",
-			"type": "M",
-			"rarity": "rare",
-			"reqAttune": true,
-			"weight": 2,
-			"value": 500,
-			"weaponCategory": "martial",
-			"property": [
-				"F",
-				"L"
-			],
-			"dmg1": "1d6",
-			"dmgType": "S",
-			"entries": [
-				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon."
-			],
-			"bonusWeapon": "+1"
-		}
 	]
 }
