@@ -32,7 +32,28 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"entries": [
-				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon."
+				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Wildwind family and was gifted to Raul Wildwind. This blade has a twin named 'Autumn Breath'."
+			],
+			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Autumn Breath",
+			"source": "IsleofTheMutantBeastsItemsAndWeapons",
+			"baseItem": "shortsword|PHB",
+			"type": "M",
+			"rarity": "rare",
+			"reqAttune": true,
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"entries": [
+				"When you wield this sword you deal 1d4 extra cold damage. You have a +1 modifier to attack and damage rolls made with this weapon. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Wildwind family and was gifted to Gilda Wildwind. This blade has a twin named 'Summer Breeze'."
 			],
 			"bonusWeapon": "+1"
 		}
