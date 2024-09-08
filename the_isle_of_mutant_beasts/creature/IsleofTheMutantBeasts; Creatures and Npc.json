@@ -10,7 +10,9 @@
 					"Davide Salvadore"
 				]
 			}
-		]
+		],
+		"dateAdded": 1725832976,
+		"dateLastModified": 1725832976
 	},
 	"monster": [
 		{
@@ -215,19 +217,7 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack",
-					"entries": [
-						"Makes two melee attacks with {@item Shortsword} and with {@item Ostro}"
-					]
-				},
-				{
-					"name": "Shortsword",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d6 + 2}) slashing damage."
-					]
-				},
-				{
-					"name": "Ostro",
+					"name": "Summer Breeze",
 					"entries": [
 						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 3}) slashing damage ({@damage 1d4 }) fire damage"
 					]

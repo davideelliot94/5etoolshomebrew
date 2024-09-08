@@ -10,11 +10,13 @@
 					"Davide Salvadore"
 				]
 			}
-		]
+		],
+		"dateAdded": 1725832976,
+		"dateLastModified": 1725832976
 	},
 	"item":[
 		{
-			"name": "Ostro",
+			"name": "Summer Breeze",
 			"source": "IsleofTheMutantBeastsItemsAndWeapons",
 			"baseItem": "shortsword|PHB",
 			"type": "M",
