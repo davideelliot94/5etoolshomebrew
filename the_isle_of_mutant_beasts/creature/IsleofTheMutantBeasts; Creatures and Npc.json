@@ -16,7 +16,7 @@
 	},
 	"monster": [
 		{
-			"name": "Wildwind Adept Apprentice - Cleric",
+			"name": "Ravenshade Adept Apprentice - Cleric",
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
@@ -163,7 +163,7 @@
 			]
 		},
 		{
-			"name": "Raul Wildwind",
+			"name": "Raul Ravenshade",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -245,10 +245,10 @@
 			"attachedItems": [
 				"shortsword|phb"
 			],
-			"shortName": "Raul Wildwind",
+			"shortName": "Raul Ravenshade",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/davideelliot94/5etoolshomebrew/main/img/tokenized_Raul%20Wildwind_token.png?token=GHSAT0AAAAAACXFIYZ7TBTT2HQ473KL22BCZW4Y76Q"
+				"url": "https://raw.githubusercontent.com/davideelliot94/5etoolshomebrew/main/img/tokenized_Raul%20Ravenshade_token.png?token=GHSAT0AAAAAACXFIYZ7TBTT2HQ473KL22BCZW4Y76Q"
 			},
 			"damageTags": [
 				"S",
@@ -256,7 +256,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Rogue Adept",
+			"name": "Ravenshade Rogue Adept",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -352,7 +352,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept - Ranger",
+			"name": "Ravenshade Adept - Ranger",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -465,7 +465,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"Wildwind has advantage on an attack roll against a creature if at least one of Wildwind's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"Ravenshade has advantage on an attack roll against a creature if at least one of Ravenshade's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
 					]
 				}
 			],
@@ -481,7 +481,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Novice Poacher Adept",
+			"name": "Ravenshade Novice Poacher Adept",
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"basicRules": true,
 			"size": [
@@ -590,7 +590,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept - Captain",
+			"name": "Ravenshade Adept - Captain",
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
@@ -723,7 +723,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept -  Fighter",
+			"name": "Ravenshade Adept -  Fighter",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -827,7 +827,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept Novice - Fighter",
+			"name": "Ravenshade Adept Novice - Fighter",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -914,7 +914,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept Apprentice - Ranger",
+			"name": "Ravenshade Adept Apprentice - Ranger",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -1025,7 +1025,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept Apprentice - Fighter",
+			"name": "Ravenshade Adept Apprentice - Fighter",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -1121,7 +1121,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept Novice - Ranger",
+			"name": "Ravenshade Adept Novice - Ranger",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
@@ -1224,7 +1224,7 @@
 			]
 		},
 		{
-			"name": "Wildwind Adept Novice - Cleric",
+			"name": "Ravenshade Adept Novice - Cleric",
 			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
 			"size": [
 				"M"
