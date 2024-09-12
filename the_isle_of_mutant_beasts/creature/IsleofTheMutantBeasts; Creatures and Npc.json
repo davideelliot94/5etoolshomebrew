@@ -5,14 +5,14 @@
 				"json": "IsleofTheMutantBeastsCreaturesAndNpcs",
 				"abbreviation": "IoMB-CN",
 				"full": "Isle of The Mutant Beasts - Creatures and Npcs",
-				"version": "0.2",
+				"version": "0.1",
 				"authors": [
 					"Davide Salvadore"
 				]
 			}
 		],
 		"dateAdded": 1725832976,
-		"dateLastModified": 1726145367
+		"dateLastModified": 1726150317
 	},
 	"monster": [
 		{
