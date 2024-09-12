@@ -32,7 +32,7 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"entries": [
-				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Ravenshade family and was gifted to Raul Ravenshade. This blade has a twin named 'Autumn Breath'."
+				"When you wield this sword you deal 1d4 extra fire damage. You have a +1 modifier to attack and damage rolls made with this weapon. While holding this sword you can cast the spell {@spell produce flame} using Charisma as spellcasting ability. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Ravenshade family and was gifted to Raul Ravenshade. This blade has a twin named 'Autumn Breath'."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -53,7 +53,7 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"entries": [
-				"When you wield this sword you deal 1d4 extra cold damage. You have a +1 modifier to attack and damage rolls made with this weapon. While holding this sword you can cast the spell {@spell produce flame} using Charisma as spellcasting ability. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Ravenshade family and was gifted to Gilda Ravenshade. This blade has a twin named 'Summer Breeze'."
+				"When you wield this sword you deal 1d4 extra cold damage. You have a +1 modifier to attack and damage rolls made with this weapon. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Ravenshade family and was gifted to Gilda Ravenshade. This blade has a twin named 'Summer Breeze'."
 			],
 			"bonusWeapon": "+1"
 		}
