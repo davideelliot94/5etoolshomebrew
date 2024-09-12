@@ -182,10 +182,11 @@
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 17,
 					"from": [
 						"{@item studded leather armor|phb}",
-						"{@item bracers of defense}"
+						"{@item bracers of defense}",
+						"{@item shield of crows}"
 					]
 				}
 			],
@@ -217,9 +218,9 @@
 			],
 			"action": [
 				{
-					"name": "Summer Breeze",
+					"name": "Quickstep Rapier",
 					"entries": [
-						"{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 3}) slashing damage ({@damage 1d4 }) fire damage"
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 2}) slashing damage"
 					]
 				}
 			],
