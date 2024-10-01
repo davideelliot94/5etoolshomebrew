@@ -56,6 +56,50 @@
 				"When you wield this sword you deal 1d4 extra cold damage. You have a +1 modifier to attack and damage rolls made with this weapon. On the hilt of the blade is engraved a Jawless Skull and the name is carved on the blade. This is a blade forged by the Ravenshade family and was gifted to Gilda Ravenshade. This blade has a twin named 'Summer Breeze'."
 			],
 			"bonusWeapon": "+1"
+		},
+		{
+			"name": "Mutagene Booster Potion Light",
+			"source": "IsleofTheMutantBeastsItemsAndWeapons",
+			"baseItem": "Potion|PHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"entries": [
+				"This potion gives you +2 to AC, +2 to Damages, +1 to FOR, +1 to DES, +1 to COS modifiers. Avaiable in different duration formats."
+			]
+		},
+		{
+			"name": "Mutagene Booster Potion Medium",
+			"source": "IsleofTheMutantBeastsItemsAndWeapons",
+			"baseItem": "Potion|PHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"entries": [
+				"This potion gives you +2 to AC, +4 to Damages, +2 to FOR, +2 to DES, +2 to COS modifiers. Avaiable in different duration formats "
+			]
+		},
+		{
+			"name": "Mutagene Booster Potion Strong",
+			"source": "IsleofTheMutantBeastsItemsAndWeapons",
+			"baseItem": "Potion|PHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"entries": [
+				"This potion gives you +3 to AC, +6 to Damages, +3 to FOR, +3 to DES, +3 to COS modifiers. Avaiable in different duration formats "
+			]
+		},
+		{
+			"name": "Mutagene Booster Potion Massive",
+			"source": "IsleofTheMutantBeastsItemsAndWeapons",
+			"baseItem": "Potion|PHB",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"entries": [
+				"This potion gives you +3 to AC, +8 to Damages, max FOR, max to DES, max to COS modifiers. Avaiable in different duration formats"
+			]
 		}
 	]
 }

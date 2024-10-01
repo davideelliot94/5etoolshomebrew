@@ -12,7 +12,7 @@
 			}
 		],
 		"dateAdded": 1725832976,
-		"dateLastModified": 1726150317
+		"dateLastModified": 1727782879
 	},
 	"monster": [
 		{
@@ -186,7 +186,7 @@
 					"from": [
 						"{@item studded leather armor|phb}",
 						"{@item bracers of defense}",
-						"{@item shield of crows}"
+						"{@item shield}"
 					]
 				}
 			],
