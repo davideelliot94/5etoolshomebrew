@@ -12,7 +12,7 @@
 			}
 		],
 		"dateAdded": 1725832976,
-		"dateLastModified": 1727782879
+		"dateLastModified": 1728375550
 	},
 	"monster": [
 		{
@@ -135,6 +135,160 @@
 				"insight": "+5",
 				"medicine": "+5",
 				"persuasion": "+2"
+			},
+			"tokenHref": {
+				"type": "external",
+				"url": "https://tabletopjoab.com/wp-content/uploads/2022/06/mtg-art-temple-thief-1100x640.jpg?ezimgfmt=rs%3Adevice%2Frscb5-1"
+			},
+			"environment": [
+				"urban"
+			],
+			"damageTags": [
+				"B"
+			],
+			"damageTagsSpell": [
+				"N",
+				"R"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"mace|phb"
+			]
+		},
+		{
+			"name": "Raul Ravenshade Senior",
+			"source": "IsleofTheMutantBeastsCreaturesAndNpcs",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "cleric",
+						"prefix": "Human"
+					}
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 10",
+				"average": 30
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 12,
+			"con": 14,
+			"int": 10,
+			"wis": 19,
+			"cha": 10,
+			"passive": 15,
+			"languages": [
+				"Common"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"5th-level spellcaster that uses Wisdom as its spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The ixitxachitl has the following cleric spells prepared:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell guidance}",
+								"{@spell sacred flame}",
+								"{@spell thaumaturgy}",
+								"{@spell toll the dead}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell disguise self}",
+								"{@spell guiding bolt}",
+								"{@spell inflict wounds}",
+								"{@spell cure wounds}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell blindness/deafness}",
+								"{@spell spiritual  weapon}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell animate dead}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Channel Divinity: Invoke Duplicity",
+					"entries": [
+						"you can use your Channel Divinity to create an illusory duplicate of yourself.",
+						"As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your {@status concentration} (as if you were {@status concentration||concentrating} on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+						"For the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
+					]
+				},
+				{
+					"name": "Blessing of the Trickster",
+					"entries": [
+						"Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
+					]
+				},
+				{
+					"name": "Mace of Terror",
+					"entries": [
+						"{@atk mw} {@hit +4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 2}) bludgeoning damage. This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute. While it is frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. At the end of each of its turns, a creature can repeat the saving throw, ending the effect on itself on a success.The mace regains 1d3 expended charges daily at dawn."
+					]
+				}
+			],
+			"languageTags": [
+				"C"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"hasFluff": true,
+			"shortName": "WANC",
+			"level": 3,
+			"save": {
+				"wis": "+7",
+				"cha": "+3"
+			},
+			"skill": {
+				"religion": "+3",
+				"insight": "+7",
+				"medicine": "+7",
+				"persuasion": "+3"
 			},
 			"tokenHref": {
 				"type": "external",
