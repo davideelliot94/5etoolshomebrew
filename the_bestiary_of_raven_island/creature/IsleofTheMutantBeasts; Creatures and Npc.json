@@ -12,7 +12,7 @@
 			}
 		],
 		"dateAdded": 1725832976,
-		"dateLastModified": 1728375550
+		"dateLastModified": 1728375555
 	},
 	"monster": [
 		{
@@ -59,7 +59,7 @@
 			"languages": [
 				"Common"
 			],
-			"cr": "2",
+			"cr": "4",
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
